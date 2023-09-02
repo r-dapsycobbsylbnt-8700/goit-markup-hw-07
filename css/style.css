@@ -1258,10 +1258,16 @@ span.studio2 {
 }
 
 .footer {
+    flex-wrap: wrap;
     display: flex;
-
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 72px;
+    column-gap: 0;
 
     @media screen and (min-width: 768px) {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
